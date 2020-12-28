@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "诊所",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tui-modal-me": "/ui/tui-modal-me/tui-modal-me"
+  }
+}

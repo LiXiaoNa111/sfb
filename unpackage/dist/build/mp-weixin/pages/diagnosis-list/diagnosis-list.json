@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "复诊-问诊单",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "tui-upload": "/ui/tui-upload/tui-upload",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

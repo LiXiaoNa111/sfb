@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的挂号",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "load-refresh": "/components/load-refresh/load-refresh",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

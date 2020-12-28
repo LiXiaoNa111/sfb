@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "就诊人选择",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "myh5": "/pages/myh5/myh5"
+  }
+}

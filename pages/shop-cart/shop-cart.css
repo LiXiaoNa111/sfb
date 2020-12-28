@@ -1,0 +1,114 @@
+page {
+	background-color: #F9F9F9
+}
+
+.view {
+	width: 100%;
+	height: calc(100vh);
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F9F9F9
+}
+
+.bottom-view {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height: 100rpx;
+	background-color: #FFFFFF;
+	padding: 24rpx;
+}
+
+.b-all {
+	font-size: 26rpx;
+	color: #AFAFAF;
+	margin-left: 24rpx;
+	flex-grow: 1;
+}
+
+.b-all-txt {
+	font-size: 26rpx;
+	color: #AFAFAF;
+}
+
+.b-all-price {
+	font-size: 30rpx;
+	color: #ec5353;
+}
+
+.b-button {
+	font-size: 30rpx;
+	background-color: #EC5353;
+	border-radius: 50rpx;
+	color: #FFFFFF;
+	padding-top: 17rpx;
+	padding-bottom: 17rpx;
+	padding-left: 40rpx;
+	margin-left: 24rpx;
+	padding-right: 40rpx;
+}
+
+.card {
+	width: 700rpx;
+	padding: 24rpx;
+	background-color: #FFFFFF;
+	border-radius: 24rpx;
+	display: flex;
+	flex-direction: column;
+	margin-top: 24rpx;
+}
+
+.card-row {
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.txt-shop-name {
+	font-size: 30rpx;
+	color: #595757;
+	font-weight: bold;
+	margin-left: 24rpx;
+}
+
+.card-list {
+	margin-top: 30rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.item-column {
+	width: 100%;
+	margin-left: 30rpx;
+	display: flex;
+	flex-direction: column;
+}
+
+.txt-name {
+	font-size: 30rpx;
+	color: #595757;
+}
+
+.txt-spec {
+	font-size: 26rpx;
+	color: #AFAFAF;
+}
+
+.item-row {
+	margin-top: 30rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.item-price {
+	font-size: 30rpx;
+	color: #ec5353;
+	font-weight: bold;
+	flex-grow: 1;
+}

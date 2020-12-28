@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tui-grid": "/ui/tui-grid/tui-grid",
+    "tui-grid-item": "/ui/tui-grid-item/tui-grid-item",
+    "tui-icon": "/ui/tui-icon/tui-icon"
+  }
+}

@@ -1,0 +1,1 @@
+<view style="padding-left:24rpx;padding-right:24rpx;padding-top:12rpx;padding-bottom:180rpx;"><rich-text nodes="{{src}}"></rich-text></view>

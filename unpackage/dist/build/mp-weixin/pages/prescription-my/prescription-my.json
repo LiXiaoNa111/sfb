@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "我的处方",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "说明  ",
+        "fontSize": 15,
+        "color": "#10be62"
+      }
+    ]
+  },
+  "usingComponents": {
+    "load-refresh": "/components/load-refresh/load-refresh",
+    "tui-modal": "/ui/tui-modal/tui-modal",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

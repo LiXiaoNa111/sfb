@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "tui-badge": "/ui/tui-badge/tui-badge",
+    "tui-tips": "/ui/tui-tips/tui-tips",
+    "load-refresh": "/components/load-refresh/load-refresh",
+    "tui-icon": "/ui/tui-icon/tui-icon",
+    "tui-grid": "/ui/tui-grid/tui-grid",
+    "tui-grid-item": "/ui/tui-grid-item/tui-grid-item",
+    "bage": "/components/u-badge/u-badge",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

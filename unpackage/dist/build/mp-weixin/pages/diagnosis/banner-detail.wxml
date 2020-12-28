@@ -1,0 +1,1 @@
+<view style="padding-left:24rpx;padding-right:24rpx;padding-top:12rpx;padding-bottom:180rpx;"><block wx:if="{{type==0}}"><image src="{{src}}" mode="aspectFill"></image></block><block wx:if="{{type==1}}"><web-view src="{{src}}"></web-view></block><block wx:if="{{type==2}}"><rich-text nodes="{{src}}"></rich-text></block></view>

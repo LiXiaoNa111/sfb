@@ -1,0 +1,161 @@
+page {
+	background-color: #FFFFFF
+}
+
+.row-top {
+	margin-top: 25rpx;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 24rpx;
+}
+
+.top-search {
+	border: #10BE62 1rpx solid;
+	border-radius: 50rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 12rpx;
+	flex: 1;
+	height: 65rpx;
+}
+
+.view-item {
+	display: flex;
+	flex-direction: row;
+	padding: 24rpx;
+	border-bottom: #F9F9F9 1rpx solid;
+}
+
+.item-img {
+	width: 220rpx;
+	height: 220rpx;
+	border-radius: 8rpx;
+	flex-shrink: 0;
+}
+
+.item-txt {
+	font-size: 30rpx;
+	color: #595757;
+	flex: 1;
+}
+.item-txt-26-af{
+	font-size: 26rpx;
+	color: #AFAFAF;
+	flex: 1;
+}
+.item-txt-ec{
+	font-size: 30rpx;
+	color: #ec5353;
+	flex: 1;
+	font-weight: bold;
+}
+
+.no-view {
+	height: calc(100vh - 140rpx);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.no-txt {
+	font-size: 34rpx;
+	color: #595757;
+	font-weight: bold;
+	margin-top: 12rpx;
+}
+
+.img-back {
+	width: 24rpx;
+	height: 34rpx;
+	margin-right: 24rpx;
+}
+
+.img-search {
+	width: 30rpx;
+	height: 30rpx;
+	color: #10BE62;
+	margin-right: 12rpx;
+}
+
+.txt-search {
+	font-size: 28rpx;
+	color: #595757;
+	flex: 1;
+}
+
+.button-search {
+	margin-left: 24rpx;
+	font-size: 30rpx;
+	color: #FFFFFF;
+	background-color: #10BE62;
+	border-radius: 50rpx;
+	padding-left: 15rpx;
+	padding-right: 15rpx;
+	height: 55rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.txt-30-57 {
+	font-size: 30rpx;
+	color: #595757;
+	font-weight: bold;
+}
+
+.flag {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 24rpx;
+}
+
+.flag-item {
+	font-size: 28rpx;
+	color: #575757;
+	padding-top: 7rpx;
+	padding-left: 17rpx;
+	padding-right: 17rpx;
+	padding-bottom: 7rpx;
+	background-color: #F6F6F6;
+	width: auto;
+	height: min-content;
+	border-radius: 50rpx;
+	margin-right: 12rpx;
+	margin-bottom: 12rpx;
+}
+
+.txt-28 {
+	font-size: 28rpx;
+	color: #575757;
+	margin-left: 24rpx;
+}
+
+.top-txt {
+	font-size: 26rpx;
+	color: #FFFFFF;
+
+	width: 30rpx;
+	height: 30rpx;
+	background-color: #C80808;
+	border-radius: 50rpx;
+}
+
+.txt-26 {
+	font-size: 26rpx;
+	color: #db7820;
+	margin-left: 24rpx;
+}
+
+.search-back-view {
+	padding-top: 24rpx;
+	height: 88rpx;
+	padding-bottom: 24rpx;
+	border-bottom: 1rpx solid #F9F9F9;
+}

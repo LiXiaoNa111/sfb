@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "挂号结果",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "退号",
+        "fontSize": 15,
+        "color": "#10be62"
+      }
+    ]
+  },
+  "usingComponents": {
+    "tui-icon": "/ui/tui-icon/tui-icon",
+    "tui-modal": "/ui/tui-modal/tui-modal",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "tui-tips": "/ui/tui-tips/tui-tips",
+    "myh5": "/pages/myh5/myh5",
+    "jyf-parser": "/components/jyf-parser/jyf-parser"
+  }
+}

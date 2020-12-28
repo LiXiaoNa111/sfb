@@ -1,0 +1,562 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/welcome/guidance/guidance",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/welcome/login/login",
+			"style": {
+				"app-plus": {
+					"autoBackButton": true
+				}
+			}
+		}, {
+			"path": "pages/diagnosis/diagnosis",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/diagnosis/banner-detail",
+			"style": {}
+		}, {
+			"path": "pages/registration/registrstion-page",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"h5": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/shop/shop-page",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/me/me-page",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/diagnosis-list/diagnosis-list",
+			"style": {
+				"navigationBarTitleText": "复诊-问诊单",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "视频详情",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/video/big-video",
+			"style": {
+				"navigationBarTitleText": "视频详情",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/shop-details/shop-details",
+			"style": {
+				"transparentTitle": "auto", //导航栏透明设置 渐变显示
+				"navigationBarTitleText": "详情",
+				"titleNView": {
+					"buttons": [{
+						"type": "share"
+					}]
+				}
+			}
+		}, {
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "患者",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/chat/kf-chat",
+			"style": {
+				"navigationBarTitleText": "患者",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/message-list/message-list",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/address-my/address-my",
+			"style": {
+				"navigationBarTitleText": "收货地址管理",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/helper/helper",
+			"style": {
+				"navigationBarTitleText": "尚方宝助手",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"titleNView": {
+					"buttons": [ //原生标题栏按钮配置,
+						{
+							"text": "一键已读", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+							"fontSize": 15,
+							"color": "#10be62",
+							"width": "auto"
+						}
+					]
+				}
+			}
+		}, {
+			"path": "pages/my-goods/my-goods",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/shop-list/shop-list",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/shop-cart/shop-cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"titleNView": {
+					"buttons": [ //原生标题栏按钮配置,
+						{
+							"text": "编辑", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+							"fontSize": 15,
+							"color": "#10be62"
+						}
+					]
+				}
+			}
+		}, {
+			"path": "pages/need-list/need-list",
+			"style": {
+				"navigationBarTitleText": "需求单",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"titleNView": {
+					"buttons": [ //原生标题栏按钮配置,
+						{
+							"text": "记录", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+							"fontSize": 15,
+							"color": "#10be62"
+						}
+					]
+				}
+			}
+		}, {
+			"path": "pages/need-up/need-up",
+			"style": {
+				"navigationBarTitleText": "提交需求单",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/need-pay/need-pay",
+			"style": {
+				"navigationBarTitleText": "提交需求单",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/need-record/need-record",
+			"style": {
+				"navigationBarTitleText": "需求单记录",
+				"navigationBarBackgroundColor": "#FFFFFF"
+				// ,"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/need-update-user/need-update-user",
+			"style": {
+				"navigationBarTitleText": "就诊人选择",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/need-update-address/need-update-address",
+			"style": {
+				"navigationBarTitleText": "更换收货地址",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/location/location",
+			"style": {
+				"navigationBarTitleText": "定位",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"titleNView": {
+					"buttons": [ //原生标题栏按钮配置,
+						{
+							"text": "确认", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+							"fontSize": 15,
+							"color": "#10be62"
+						}
+					]
+				}
+			}
+		}, {
+			"path": "pages/prescription-submit-cen/prescription-submit-cen",
+			"style": {
+				"navigationBarTitleText": "提交订单",
+				"navigationBarBackgroundColor": "#10be62",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/shop-confirm/shop-confirm",
+			"style": {
+				"navigationBarTitleText": "确定订单",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/review-list/review-list",
+			"style": {
+				"navigationBarTitleText": "复诊记录",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					//app页面不显示滚动条
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/review-list/index(1)",
+			"style": {
+				"navigationBarTitleText": "复选",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/binding-phone/binding-phone",
+			"style": {
+				"navigationBarTitleText": "绑定手机号",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/attention-doctor/attention-doctor",
+			"style": {
+				"navigationBarTitleText": "关注医生",
+				"navigationBarBackgroundColor": "#FFFFFF"
+				// ,"titleNView": {
+				// 	"buttons": [ //原生标题栏按钮配置,
+				// 		{
+				// 			"text": "分享", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+				// 			"fontSize": 15,
+				// 			"color": "#10be62"
+				// 		}
+				// 	]
+				// }
+			}
+		}, {
+			"path": "pages/order-details/order-details",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/shop-search/shop-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/myh5/myh5",
+			"style": {}
+		}, {
+			"path": "pages/apply-refund/apply-refund",
+			"style": {
+				"navigationBarTitleText": "售后",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/logistics/logistics",
+			"style": {
+				"navigationBarTitleText": "物流",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}
+
+		, {
+			"path": "pages/refund-details/refund-details",
+			"style": {
+				"navigationBarTitleText": "退款详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/people-my/people-my",
+			"style": {
+				"navigationBarTitleText": "就诊人管理",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/bill-list/bill-list",
+			"style": {
+				"navigationBarTitleText": "问诊单",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/bill-list-check/bill-list-check",
+			"style": {
+				"navigationBarTitleText": "查看问诊单",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/review-list-check/review-list-check",
+			"style": {
+				"navigationBarTitleText": "查看复诊单",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/case-detail/case-detail",
+			"style": {
+				"navigationBarTitleText": "处方详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/downLoad/downLoad",
+			"style": {}
+		}, {
+			"path": "pages/web-view/agreement-web-view",
+			"style": {
+				"app-plus": {
+					"autoBackButton": false
+				},
+				"h5": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/web-view/syy",
+			"style": {
+				"h5": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/welcome/wx-authorization/wx-authorization",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/welcome/wx-authorization-phone/wx-authorization-phone",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/crr-detail-list/crr-detail-list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/clinic-doctor/clinic-doctor",
+			"style": {
+				"navigationBarTitleText": "诊所",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/news-details/news-details",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/registrstion-details/registrstion-details",
+			"style": {
+				"navigationBarTitleText": "挂号",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/web-view/web-view",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/first-doctor/first-doctor",
+			"style": {
+				"navigationBarTitleText": "复诊",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/registration-my/registration-my",
+			"style": {
+				"navigationBarTitleText": "我的挂号",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/prescription-my/prescription-my",
+			"style": {
+				"navigationBarTitleText": "我的处方",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"titleNView": {
+					"buttons": [ //原生标题栏按钮配置,
+						{
+							"text": "说明  ", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+							"fontSize": 15,
+							"color": "#10be62"
+						}
+					]
+				}
+			}
+		}, {
+			"path": "pages/prescription-up/prescription-up",
+			"style": {
+				"navigationBarTitleText": "上传处方",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"titleNView": {
+					"buttons": [ //原生标题栏按钮配置,
+						{
+							"text": "更换就诊人", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+							"fontSize": 15,
+							"color": "#10be62",
+							"width": "auto"
+						}
+					]
+				}
+			}
+		}, {
+			"path": "pages/registration-result/registration-result",
+			"style": {
+				"navigationBarTitleText": "挂号结果",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"titleNView": {
+					"buttons": [ //原生标题栏按钮配置,
+						{
+							"text": "退号", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+							"fontSize": 15,
+							"color": "#10be62"
+						}
+					]
+				}
+			}
+		}
+	],
+
+
+	"subPackages": [{
+		"root": "ApagesA",
+		"pages": [{
+			"path": "administration/administration",
+			"style": {
+				"navigationBarTitleText": "复诊管理",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "address-add/address-add",
+			"style": {
+				"navigationBarTitleText": "添加地址",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "authentication/authentication",
+			"style": {
+				"navigationBarTitleText": "身份认证",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "registrstion-find/registrstion-find",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"h5": {
+					"titleNView": false
+				}
+			}
+		}]
+	}],
+	"preloadRule": {
+		"ApagesA/administration/administration": {
+			"network": "all",
+			"packages": ["ApagesA"]
+		},
+		"ApagesA/address-add/address-add": {
+			"network": "all",
+			"packages": ["ApagesA"]
+		},
+		"ApagesA/authentication/authentication": {
+			"network": "all",
+			"packages": ["ApagesA"]
+		},
+		"ApagesA/registrstion-find/registrstion-find": {
+			"network": "all",
+			"packages": ["ApagesA"]
+		}
+	},
+
+	// 自动扫描导入组件
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"tui-(.*)": "@/ui/tui-$1/tui-$1.vue",
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/diagnosis/diagnosis",
+			"iconPath": "static/image/tab_icon_fz_nor.png",
+			"selectedIconPath": "static/image/tab_icon_fz_sel.png",
+			"text": "复诊"
+		}, {
+			"pagePath": "pages/registration/registrstion-page",
+			"iconPath": "static/image/tab_icon_gh_nor.png",
+			"selectedIconPath": "static/image/tab_icon_gh_sel.png",
+			"text": "挂号"
+		}, {
+			"pagePath": "pages/shop/shop-page",
+			"iconPath": "static/image/tab_icon_sc_nor.png",
+			"selectedIconPath": "static/image/tab_icon_sc_sel.png",
+			"text": "商城"
+		}, {
+			"pagePath": "pages/me/me-page",
+			"iconPath": "static/image/tab_icon_mine_nor.png",
+			"selectedIconPath": "static/image/tab_icon_mine_sel.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "尚方宝",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"bounce": "none"
+		}
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

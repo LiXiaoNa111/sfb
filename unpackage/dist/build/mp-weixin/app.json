@@ -1,0 +1,153 @@
+{
+  "pages": [
+    "pages/welcome/guidance/guidance",
+    "pages/welcome/login/login",
+    "pages/diagnosis/diagnosis",
+    "pages/diagnosis/banner-detail",
+    "pages/registration/registrstion-page",
+    "pages/shop/shop-page",
+    "pages/me/me-page",
+    "pages/diagnosis-list/diagnosis-list",
+    "pages/video/video",
+    "pages/video/big-video",
+    "pages/shop-details/shop-details",
+    "pages/chat/chat",
+    "pages/chat/kf-chat",
+    "pages/message-list/message-list",
+    "pages/address-my/address-my",
+    "pages/helper/helper",
+    "pages/my-goods/my-goods",
+    "pages/shop-list/shop-list",
+    "pages/shop-cart/shop-cart",
+    "pages/need-list/need-list",
+    "pages/need-up/need-up",
+    "pages/need-pay/need-pay",
+    "pages/need-record/need-record",
+    "pages/need-update-user/need-update-user",
+    "pages/need-update-address/need-update-address",
+    "pages/location/location",
+    "pages/prescription-submit-cen/prescription-submit-cen",
+    "pages/shop-confirm/shop-confirm",
+    "pages/review-list/review-list",
+    "pages/review-list/index(1)",
+    "pages/binding-phone/binding-phone",
+    "pages/attention-doctor/attention-doctor",
+    "pages/order-details/order-details",
+    "pages/shop-search/shop-search",
+    "pages/myh5/myh5",
+    "pages/apply-refund/apply-refund",
+    "pages/logistics/logistics",
+    "pages/refund-details/refund-details",
+    "pages/people-my/people-my",
+    "pages/bill-list/bill-list",
+    "pages/bill-list-check/bill-list-check",
+    "pages/review-list-check/review-list-check",
+    "pages/case-detail/case-detail",
+    "pages/downLoad/downLoad",
+    "pages/web-view/agreement-web-view",
+    "pages/web-view/syy",
+    "pages/welcome/wx-authorization/wx-authorization",
+    "pages/welcome/wx-authorization-phone/wx-authorization-phone",
+    "pages/crr-detail-list/crr-detail-list",
+    "pages/clinic-doctor/clinic-doctor",
+    "pages/news-details/news-details",
+    "pages/registrstion-details/registrstion-details",
+    "pages/web-view/web-view",
+    "pages/first-doctor/first-doctor",
+    "pages/registration-my/registration-my",
+    "pages/prescription-my/prescription-my",
+    "pages/prescription-up/prescription-up",
+    "pages/registration-result/registration-result"
+  ],
+  "subPackages": [
+    {
+      "root": "ApagesA",
+      "pages": [
+        "administration/administration",
+        "address-add/address-add",
+        "authentication/authentication",
+        "registrstion-find/registrstion-find"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "尚方宝",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/diagnosis/diagnosis",
+        "iconPath": "static/image/tab_icon_fz_nor.png",
+        "selectedIconPath": "static/image/tab_icon_fz_sel.png",
+        "text": "复诊"
+      },
+      {
+        "pagePath": "pages/registration/registrstion-page",
+        "iconPath": "static/image/tab_icon_gh_nor.png",
+        "selectedIconPath": "static/image/tab_icon_gh_sel.png",
+        "text": "挂号"
+      },
+      {
+        "pagePath": "pages/shop/shop-page",
+        "iconPath": "static/image/tab_icon_sc_nor.png",
+        "selectedIconPath": "static/image/tab_icon_sc_sel.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/me/me-page",
+        "iconPath": "static/image/tab_icon_mine_nor.png",
+        "selectedIconPath": "static/image/tab_icon_mine_sel.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "preloadRule": {
+    "ApagesA/administration/administration": {
+      "network": "all",
+      "packages": [
+        "ApagesA"
+      ]
+    },
+    "ApagesA/address-add/address-add": {
+      "network": "all",
+      "packages": [
+        "ApagesA"
+      ]
+    },
+    "ApagesA/authentication/authentication": {
+      "network": "all",
+      "packages": [
+        "ApagesA"
+      ]
+    },
+    "ApagesA/registrstion-find/registrstion-find": {
+      "network": "all",
+      "packages": [
+        "ApagesA"
+      ]
+    }
+  },
+  "networkTimeout": {
+    "uploadFile": 120000
+  },
+  "permission": {
+    "scope.userInfo": {
+      "desc": "微信信息将用于小程序位置接口的效果展示"
+    },
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}

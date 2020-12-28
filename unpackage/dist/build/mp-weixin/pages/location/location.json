@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "定位",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "确认",
+        "fontSize": 15,
+        "color": "#10be62"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

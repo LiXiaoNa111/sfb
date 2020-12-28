@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "load-refresh": "/components/load-refresh/load-refresh"
+  }
+}

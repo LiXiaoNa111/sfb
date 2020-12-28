@@ -1,0 +1,140 @@
+.for-you {
+	font-size: 34rpx;
+	color: #595757;
+}
+
+.for-view {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #F9F9F9;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+}
+
+.doctor-item {
+	height: 275rpx;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #FFFFFF;
+	padding-top: 40rpx;
+	padding-left: 24rpx;
+	padding-right: 24rpx;
+	padding-bottom: 24rpx;
+	border-bottom: #F9F9F9 2rpx solid;
+}
+
+.item-column {
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	position: relative;
+}
+
+.item-row1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.item-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	position: absolute;
+	top: 80%;
+}
+
+.doctor-name {
+	font-size: 30rpx;
+	color: #595757;
+	font-weight: bold;
+	margin-right: 40rpx;
+}
+
+.doctor-title {
+	font-size: 30rpx;
+	color: #595757;
+	margin-right: 28rpx;
+}
+
+.doctor-department {
+	font-size: 26rpx;
+	color: #db7820;
+	padding-top: 6rpx;
+	padding-bottom: 6rpx;
+	padding-left: 15rpx;
+	padding-right: 15rpx;
+	background-color: #fbf1e8;
+	border-radius: 50rpx;
+}
+
+.doctor-price {
+	font-size: 26rpx;
+	color: #595757;
+}
+
+.flag {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-top: 12rpx;
+	height: 110rpx;
+	overflow: hidden;
+	/* -webkit-line-clamp: 2; //可设置显示的行数
+	line-clamp: 2;
+	text-overflow: -o-ellipsis-lastline;
+	text-overflow: ellipsis; //省略号
+	display: -webkit-box;
+	-webkit-box-orient: vertical; */
+}
+
+.flag-item {
+	font-size: 24rpx;
+	color: #AFAFAF;
+	padding-top: 5rpx;
+	padding-left: 15rpx;
+	padding-right: 15rpx;
+	padding-bottom: 5rpx;
+	background-color: #F9F9F9;
+	width: auto;
+	border-radius: 7rpx;
+	margin: 5rpx;
+	height: 43rpx;
+}
+
+.line {
+	background-color: #F9F9F9;
+	height: 2rpx;
+	width: 100%;
+}
+
+.view-null-column {
+	height: 280rpx;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.txt-28-af {
+	font-size: 28rpx;
+	color: #AFAFAF;
+}
+
+.doctor-gh {
+	font-size: 30rpx;
+	color: #10BE62;
+}
+.view-column{
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "尚方宝助手",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "一键已读",
+        "fontSize": 15,
+        "color": "#10be62",
+        "width": "auto"
+      }
+    ]
+  },
+  "usingComponents": {
+    "load-refresh": "/components/load-refresh/load-refresh",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

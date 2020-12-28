@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "售后",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "tui-upload": "/ui/tui-upload/tui-upload",
+    "tui-bottom-popup": "/ui/tui-bottom-popup/tui-bottom-popup"
+  }
+}

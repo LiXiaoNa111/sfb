@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "消息",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "tui-badge": "/ui/tui-badge/tui-badge",
+    "tui-swipe-action": "/ui/tui-swipe-action/tui-swipe-action",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

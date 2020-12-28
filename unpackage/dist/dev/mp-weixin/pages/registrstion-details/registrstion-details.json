@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "挂号",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "tui-collapse": "/ui/tui-collapse/tui-collapse",
+    "tui-list-cell": "/ui/tui-list-cell/tui-list-cell",
+    "tui-bottom-popup": "/ui/tui-bottom-popup/tui-bottom-popup",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

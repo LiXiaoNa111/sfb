@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "tui-tips": "/ui/tui-tips/tui-tips",
+    "wyb-notice-bar": "/components/wyb-noticeBar/wyb-noticeBar",
+    "load-refresh": "/components/load-refresh/load-refresh",
+    "tui-icon": "/ui/tui-icon/tui-icon",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

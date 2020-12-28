@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "购物车",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "编辑",
+        "fontSize": 15,
+        "color": "#10be62"
+      }
+    ]
+  },
+  "usingComponents": {
+    "tui-numberbox": "/ui/tui-numberbox/tui-numberbox",
+    "tui-modal": "/ui/tui-modal/tui-modal",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

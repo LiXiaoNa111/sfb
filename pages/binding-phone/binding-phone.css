@@ -1,0 +1,36 @@
+page {
+	background-color: #FFFFFF;
+	/* padding: 24rpx; */
+}
+
+.lin {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	border-bottom: #F9F9F9 1rpx solid;
+	padding: 24rpx;
+}
+
+.ipnoe-input {
+	width: 300rpx;
+	font-size: 30rpx;
+	color: #595757;
+	flex: 1;
+}
+.code {
+	align-self: flex-end;
+	border: solid 1rpx #4f4f4f;
+	padding: 15rpx;
+	font-size: 30rpx;
+	color: #4f4f4f;
+	border-radius: 4px;
+}
+.regis {
+	border-radius: 100px;
+	background-color: #10be62;
+	margin-top: 100rpx;
+	color: #FFFFFF;
+	font-size: 34rpx;
+	width: 100%;
+}

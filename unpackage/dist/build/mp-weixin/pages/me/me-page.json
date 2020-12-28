@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "tui-tips": "/ui/tui-tips/tui-tips",
+    "tui-badge": "/ui/tui-badge/tui-badge",
+    "tui-modal-me": "/ui/tui-modal-me/tui-modal-me",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

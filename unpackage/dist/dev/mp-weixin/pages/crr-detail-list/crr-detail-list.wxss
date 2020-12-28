@@ -1,0 +1,25 @@
+
+.message-f9 {
+	background-color: #F9F9F9;
+	padding: 14rpx;
+}
+.message-card {
+	background-color: #FFFFFF;
+	border-radius: 12rpx;
+	padding: 24rpx;
+}
+.cu-title {
+	font-size: 30rpx;
+	color: #595757;
+	font-weight: bold;
+}
+.cu-date {
+	font-size: 24rpx;
+	color: #C2C2C2;
+	margin-top: 20rpx;
+}
+.cu-sub-title {
+	font-size: 26rpx;
+	color: #595757;
+}
+

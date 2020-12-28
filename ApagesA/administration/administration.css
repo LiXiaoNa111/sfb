@@ -1,0 +1,154 @@
+page{
+	
+	background-color: #F9F9F9;
+}
+.jd {
+	display: flex;
+	flex-direction: column;
+	height: calc(100vh );
+	width: 100%;
+}
+
+.view-up {
+	width: 100%;
+	background-color: #FFFFFF;
+	height: 100rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-top: #F9F9F9 1rpx solid;
+}
+
+.txt-up {
+	font-size: 34rpx;
+	color: #10be62;
+	margin-left: 12rpx;
+}
+.card {
+	width: 700rpx;
+	height: 600rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	margin-bottom: 40rpx;
+	background-color: #FFFFFF;
+	border-radius: 6rpx;
+	padding-top: 40rpx;
+	padding-left: 24rpx;
+	padding-right: 24rpx;
+	padding-bottom: 40rpx;
+}
+
+.card-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+
+.row-title {
+	font-size: 34rpx;
+	color: #10be62;
+	font-weight: bold;
+	flex-grow: 1;
+}
+
+.row-time {
+	font-size: 24rpx;
+	color: #c2c2c2;
+}
+
+.row-title2 {
+	padding-top: 18rpx;
+	font-size: 30rpx;
+	color: #595757;
+	flex-grow: 1;
+}
+
+.view-is-open {
+	padding-top: 18rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.txt-no-open {
+	font-size: 30rpx;
+	color: #595757;
+	margin-left: 6rpx;
+}
+
+.txt-open {
+	font-size: 30rpx;
+	color: #db7820;
+	margin-left: 6rpx;
+}
+
+.card-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 40rpx;
+	margin-top: 40rpx;
+	background-color: #F9F9F9;
+	width: 100%;
+	height: 290rpx;
+	border-radius: 6rpx;
+	padding-left: 30px;
+	padding-right: 30rpx;
+}
+
+.card-div-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.card-div-row2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-top: 28rpx;
+	padding-bottom: 28rpx;
+}
+
+.txt-div {
+	font-size: 26rpx;
+	flex-shrink: 0;
+	color: #595757;
+}
+
+.txt-div2 {
+	font-size: 26rpx;
+	color: #595757;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box; //作为弹性伸缩盒子模型显示。
+	-webkit-box-orient: vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+	-webkit-line-clamp: 2;
+}
+
+.shop-txt {
+	font-weight: 30rpx;
+	color: #10be62;
+}
+
+.txt-fz {
+	font-size: 30rpx;
+	color: #afafaf;
+	flex-grow: 1;
+	margin-left: 32rpx;
+}
+.txt-fz2 {
+	font-size: 30rpx;
+	color: #db7820;
+	flex-grow: 1;
+	margin-left: 32rpx;
+}

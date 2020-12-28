@@ -1,0 +1,18 @@
+{
+  "transparentTitle": "auto",
+  "navigationBarTitleText": "详情",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "share"
+      }
+    ]
+  },
+  "usingComponents": {
+    "jyf-parser": "/components/jyf-parser/jyf-parser",
+    "tui-badge": "/ui/tui-badge/tui-badge",
+    "tui-bottom-popup": "/ui/tui-bottom-popup/tui-bottom-popup",
+    "tui-numberbox": "/ui/tui-numberbox/tui-numberbox",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

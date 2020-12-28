@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "上传处方",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "更换就诊人",
+        "fontSize": 15,
+        "color": "#10be62",
+        "width": "auto"
+      }
+    ]
+  },
+  "usingComponents": {
+    "myh5": "/pages/myh5/myh5"
+  }
+}

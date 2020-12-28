@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "tui-badge": "/ui/tui-badge/tui-badge",
+    "load-refresh": "/components/load-refresh/load-refresh",
+    "tui-modal": "/ui/tui-modal/tui-modal",
+    "myh5": "/pages/myh5/myh5"
+  }
+}

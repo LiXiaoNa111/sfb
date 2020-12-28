@@ -1,0 +1,1 @@
+<view class="bac"><video class="tui-video" src="{{videoUrl}}" title="{{title}}" show-center-play-btn="{{true}}" controls="{{true}}" autoplay="{{true}}" objectFit="contain"></video></view>

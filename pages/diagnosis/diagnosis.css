@@ -1,0 +1,526 @@
+.all {
+	width: 100%;
+	height: calc(100vh);
+	display: flex;
+	flex-direction: column;
+}
+
+.view-top {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 350rpx;
+
+}
+
+.view-more {
+	align-self: center;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.tui-badge-item {
+	position: relative;
+}
+.nologin-view{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center ;
+}
+.nologin-txt{
+	color: #AFAFAF;
+}
+.nologin-button{
+	color: #10BE62;
+	padding-top: 5rpx;
+	padding-bottom: 5rpx;
+	padding-left: 18rpx;
+	padding-right: 18rpx;
+	border: 1rpx #10BE62 solid;
+	border-radius: 6rpx;
+	margin-top: 24rpx;
+}
+.nologin-img{
+	margin-top: 48rpx;
+	margin-bottom: 24rpx;
+	width: 300rpx;
+	height: 300rpx;
+}
+
+.view-row1 {
+	display: flex;
+	flex-direction: row;
+	padding: 25rpx;
+	width: 100%;
+	height: 95rpx;
+	align-items: center;
+	background-color: #10BE62;
+}
+
+.view-row {
+	display: flex;
+	flex-direction: row;
+	padding: 25rpx;
+	width: 100%;
+	height: auto;
+	align-items: center;
+}
+
+.view-pop-menu {
+	width: auto;
+	height: auto;
+	max-height: 286rpx;
+	background-color: #000000;
+	position: absolute;
+	top: 120rpx;
+	right: 135rpx;
+	border-radius: 8rpx;
+	padding: 12rpx;
+	overflow: scroll;
+}
+
+.txt-pop-menu {
+	font-size: 30rpx;
+	color: #FFFFFF;
+	padding: 12rpx;
+}
+
+.view-row-news {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	align-items: center;
+	margin-bottom: 30rpx;
+}
+
+.view-row-news {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	align-items: center;
+	margin-bottom: 30rpx;
+}
+.view-column {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 24rpx;
+	width: 60%;
+	height: 280rpx;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ID {
+	flex-grow: 1;
+	font-size: 38rpx;
+	color: #FFFFFF;
+}
+
+.card {
+	width: 700rpx;
+	background-color: #FFFFFF;
+	height: 360rpx;
+	align-self: center;
+}
+
+.sm {
+	width: 40rpx;
+	height: 40rpx;
+	margin: 15rpx;
+}
+
+.news {
+	margin: 25rpx;
+	width: 44rpx;
+	height: 40rpx;
+}
+
+.fzgy {
+	margin-left: 12rpx;
+	font-size: 34rpx;
+	color: #595757;
+	flex-grow: 1;
+}
+
+.gl {
+	margin-left: 4rpx;
+	font-size: 30rpx;
+	color: #595757;
+}
+
+.column-lin {
+	width: 4rpx;
+	height: 24rpx;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	background-color: #ECECEC
+}
+
+.person {
+	flex-grow: 1;
+	text-align: end;
+	margin-left: 4rpx;
+	font-size: 30rpx;
+	color: #595757;
+}
+
+.type1-little-time {
+	font-size: 24rpx;
+	padding-top: 30rpx;
+	color: #c2c2c2;
+}
+
+.type1-title {
+	font-size: 30rpx;
+	color: #595757;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box; //作为弹性伸缩盒子模型显示。
+	-webkit-box-orient: vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+	-webkit-line-clamp: 4;
+}
+.view-news {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30rpx;
+	position: relative;
+	border-radius:7rpx;
+	background-color: #F6F6F6
+}
+.type0-title {
+	font-weight: bold;
+	font-size: 36rpx;
+	color: #FFFFFF;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box; //作为弹性伸缩盒子模型显示。
+	-webkit-box-orient: vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+	-webkit-line-clamp: 1;
+	position: absolute;
+	top: 80%;
+	left: 24rpx;
+}
+.tui-news-picbox {
+	position: relative;
+}
+
+.tui-video {
+	position: absolute;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transform-origin: 0 0;
+	background-color: #000000;
+	border-radius: 100rpx;
+	opacity: 0.8;
+	padding: 13rpx;
+}
+
+.ipnoe-input {
+	font-size: 30rpx;
+	color: #595757a;
+	padding-left: 40rpx;
+}
+
+.news-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	padding-left: 24rpx;
+	padding-right: 24rpx;
+	background-color: #FFFFFF;
+}
+
+.view-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.view-label {
+	border-radius: 6rpx;
+	margin-right: 4rpx;
+	border: solid 1rpx #f86b64;
+	padding-left: 5rpx;
+	padding-right: 5rpx;
+	padding-top: 3rpx;
+	padding-bottom: 3rpx;
+	font-size: 24rpx;
+	color: #f86b64;
+	text-align: center;
+	flex-shrink: 0;
+}
+
+.view-row-start {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	align-items: flex-start;
+	background-color: #5C8DFF;
+}
+
+.style-video-title {
+	font-size: 30rpx;
+	color: #595757;
+	padding-bottom: 24rpx;
+}
+
+.view-video-column {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	background-color: #FFFFFF;
+	margin-bottom: 30rpx;
+	margin-top: 30rpx;
+	width: 100%;
+}
+
+.swiper-content {
+	width: 100%;
+	height: 340rpx;
+	margin-bottom: 30rpx;
+	border-radius: 7rpx;
+}
+
+.swiper-item {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-title {
+	z-index: 2;
+	position: absolute;
+	top: 75%;
+	left: 24rpx;
+	color: #FFFFFF;
+	font-size: 30rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box; //作为弹性伸缩盒子模型显示。
+	-webkit-box-orient: vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+	-webkit-line-clamp: 1;
+}
+
+.swiper-num {
+	position: absolute;
+	top: 85%;
+	left: 89%;
+	color: #FFFFFF;
+	font-size: 30rpx;
+}
+
+.type2-column {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 67%;
+	height: 200rpx;
+	padding-top: 15rpx;
+	padding-bottom: 15rpx;
+	justify-content: space-between;
+}
+
+.good-column-padding {
+	padding: 24rpx;
+}
+
+.good-column {
+	width: 100%;
+	height: auto;
+	justify-content: flex-start;
+	border: #f9f9f9 1rpx solid;
+	border-radius: 10rpx;
+}
+
+.godd-name {
+	color: #595757;
+	font-size: 32rpx;
+	/* height: 40rpx; */
+	overflow: hidden;
+	/* background-color: #0062CC; */
+	text-overflow: ellipsis;
+	display: -webkit-box; //作为弹性伸缩盒子模型显示。
+	-webkit-box-orient: vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+	-webkit-line-clamp: 1;
+}
+
+.good-subtitle {
+	font-size: 26rpx;
+	color: #AFAFAF;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box; //作为弹性伸缩盒子模型显示。
+	-webkit-box-orient: vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+	-webkit-line-clamp: 1;
+	/* height: 40rpx; */
+	margin-top: 24rpx;
+}
+
+.row-price {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30rpx;
+	align-items: center;
+}
+.good-price {
+	flex-grow: 1;
+	color: #ec5353;
+	font-size: 34rpx;
+	font-weight: bold;
+}
+
+
+.for-you {
+	font-size: 34rpx;
+	color: #595757;
+}
+
+.for-view {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+	padding-top: 30rpx;
+	padding-bottom: 12rpx;
+}
+
+.dash-view {
+	width: 700rpx;
+	height: 300rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1rpx #D1D1D1 dashed;
+	border-radius: 12rpx;
+	margin: 24rpx;
+}
+
+.solid-view {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #10be62;
+	border-radius: 12rpx;
+	padding: 20rpx;
+}
+
+.up-txt {
+	font-size: 32rpx;
+	color: #FFFFFF;
+	margin-left: 10rpx;
+}
+
+.sub-txt {
+	font-size: 26rpx;
+	color: #C2C2C2;
+	margin-top: 20rpx;
+}
+
+.message-f9 {
+	background-color: #F9F9F9;
+	padding: 14rpx;
+}
+
+.message-card {
+	background-color: #FFFFFF;
+	border-radius: 12rpx;
+	padding: 24rpx;
+}
+
+.cu-title {
+	font-size: 30rpx;
+	color: #595757;
+	font-weight: bold;
+}
+
+.cu-date {
+	font-size: 24rpx;
+	color: #C2C2C2;
+	margin-top: 20rpx;
+}
+
+.cu-sub-title {
+	font-size: 26rpx;
+	color: #595757;
+}
+
+.tui-drop-input-box {
+	box-sizing: border-box;
+}
+
+.tui-animation {
+	display: inline-block;
+	transform: rotate(0deg);
+	transition: all 0.2s;
+}
+
+.tui-animation-part {
+	display: inline-block;
+	transform: rotate(0deg);
+	transition: all 0.2s;
+}
+
+.tui-animation-show {
+	transform: rotate(180deg);
+}
+
+.tui-animation-part-show {
+	transform: rotate(180deg);
+}
+
+.tui-selected-list {
+	border-radius: 20rpx;
+	overflow: hidden;
+	transform: translateZ(0);
+	width: 200rpx;
+}
+
+.tui-dropdown-scroll {
+	height: 400rpx;
+}
+
+.show-txt {
+	width: auto;
+	height: 40rpx;
+	overflow: hidden;
+}
+
+.img-32 {
+	width: 32rpx;
+	height: 36rpx;
+}
+
+.view-check-patient {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.img-48 {
+	width: 48rpx;
+	height: 48rpx;
+}
+
+.view-first-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "退款详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "tui-bottom-popup": "/ui/tui-bottom-popup/tui-bottom-popup"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "身份认证",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "myh5": "/pages/myh5/myh5"
+  }
+}
